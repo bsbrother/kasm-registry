@@ -1,4 +1,5 @@
 {
+  "friendly_name": "TestGPU",
   "description": "Test GPU by chrome/terminal  tools, maintained by BSBrother.",
   "docker_registry": "",
   "image_src": "testgpu.png",
@@ -12,7 +13,12 @@
     "Desktop",
     "Development"
   ],
-  "friendly_name": "TestGPU",
+  "require_gpu": true,
+  "gpu_count": 1,
+  "cores": 2,
+  "memory": 32768,
+  "cpu_allocation_method": "Inherit",
+  "uncompressed_size_mb": 4540,
   "architecture": [
     "amd64",
     "arm64"
@@ -20,6 +26,5 @@
   "compatibility": [
     "1.13.x",
     "1.14.x"
-  ],
-  "uncompressed_size_mb": 4540
+  ]
 }

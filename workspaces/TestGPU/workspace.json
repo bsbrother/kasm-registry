@@ -1,0 +1,25 @@
+{
+  "description": "Test GPU by chrome/terminal  tools, maintained by BSBrother.",
+  "docker_registry": "",
+  "image_src": "testgpu.png",
+  "name": "webos.io/testgpu:latest",
+  "run_config": {
+    "hostname": "kasm"
+  },
+  "exec_config": {
+  },
+  "categories": [
+    "Desktop",
+    "Development"
+  ],
+  "friendly_name": "TestGPU",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    "1.13.x",
+    "1.14.x"
+  ],
+  "uncompressed_size_mb": 4540
+}

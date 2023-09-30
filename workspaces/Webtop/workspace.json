@@ -1,0 +1,25 @@
+{
+  "description": "Webtop is a free and open-source development tools, maintained by BSBrother.",
+  "docker_registry": "",
+  "image_src": "webtop.png",
+  "name": "webos.io/webtop:latest",
+  "run_config": {
+    "hostname": "kasm"
+  },
+  "exec_config": {
+  },
+  "categories": [
+    "Desktop",
+    "Development"
+  ],
+  "friendly_name": "Webtop",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    "1.13.x",
+    "1.14.x"
+  ],
+  "uncompressed_size_mb": 4540
+}

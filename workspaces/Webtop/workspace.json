@@ -5,7 +5,8 @@
   "image_src": "webtop.png",
   "name": "webos.io/webtop:latest",
   "run_config": {
-    "hostname": "kasm"
+    "hostname": "kasm",
+    "privileged": true
   },
   "exec_config": {
   },

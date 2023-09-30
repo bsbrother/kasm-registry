@@ -5,7 +5,8 @@
   "image_src": "testgpu.png",
   "name": "webos.io/testgpu:latest",
   "run_config": {
-    "hostname": "kasm"
+    "hostname": "kasm",
+    "privileged": true
   },
   "exec_config": {
   },

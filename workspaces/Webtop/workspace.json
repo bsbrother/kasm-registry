@@ -16,8 +16,8 @@
   ],
   "require_gpu": true,
   "gpu_count": 1,
-  "cores": 2,
-  "memory": 32768,
+  "cores": 12,
+  "memory": 60768,
   "cpu_allocation_method": "Inherit",
   "uncompressed_size_mb": 4540,
   "architecture": [
